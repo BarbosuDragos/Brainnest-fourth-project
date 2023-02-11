@@ -4,6 +4,8 @@ body {
     align-items: center;
     justify-content: center;
     align-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #020024, #9a4795, #e1e65d)
 }
 
 .buttons {
