@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
 </head>
 <body>
-    <div class="caculator">
-        <input type="text" class="text__field" />
-  
-        <main class="keys">
-          <input type="button" value="AC" class="clear" />
-          <input type="button" value="DEL" class="delete" />
-          <input type="button" value="/" class="slash" />
-          <input type="button" value="7" class="seven" />
-          <input type="button" value="8" class="eight" />
-          <input type="button" value="9" class="nine" />
-          <input type="button" value="*" class="multiply" />
-          <input type="button" value="4" class="four" />
-          <input type="button" value="5" class="five" />
-          <input type="button" value="6" class="six" />
-          <input type="button" value="-" class="sub" />
-          <input type="button" value="1" class="one" />
-          <input type="button" value="2" class="two" />
-          <input type="button" value="3" class="three" />
-          <input type="button" value="+" class="add" />
-          <input type="button" value="0" class="zero" />
-          <input type="button" value="," class="dot" />
-          <input type="button" value="=" class="equal" />
-        </main>
+  <div class="calculator-grid">
+    <div class="output">
+      <div data-previous-operand class="previous-operand"></div>
+      <div data-current-operand class="current-operand"></div>
     </div>
-  
-    <script src="./script.js"></script>
+    <button data-all-clear class="span-two">AC</button>
+    <button data-delete>DEL</button>
+    <button data-operation>÷</button>
+    <button data-number>1</button>
+    <button data-number>2</button>
+    <button data-number>3</button>
+    <button data-operation>*</button>
+    <button data-number>4</button>
+    <button data-number>5</button>
+    <button data-number>6</button>
+    <button data-operation>+</button>
+    <button data-number>7</button>
+    <button data-number>8</button>
+    <button data-number>9</button>
+    <button data-operation>-</button>
+    <button data-number>.</button>
+    <button data-number>0</button>
+    <button data-equals class="span-two">=</button>
+  </div>
+
+  <script src="./script.js"></script>
 </body>
 </html>
